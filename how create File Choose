@@ -1,0 +1,8 @@
+/*instance the function
+JFileChooser variableName1 = new JFileChooser(); 
+				variableName1.resetChoosableFileFilters(); /*reset the filters of search 
+				SwingUtilities.updateComponentTreeUI(variableName1);
+				FileNameExtensionFilter (variableName2) = new FileNameExtensionFilter( "Files Java or txt", "JAVA", "txt"); /*files that will be selected 
+				variableName1.setFileFilter(variableName2);/*assigns the filter selected to file choose
+				variableName1.setAcceptAllFileFilterUsed(false);/* not will accept other filters
+			
