@@ -1,0 +1,6 @@
+/*instance the function
+JFileChooser variablename1 = new JFileChooser();
+				variablename1.resetChoosableFileFilters(); /*reset the filters of search 
+				SwingUtilities.updateComponentTreeUI(variablename1);
+				variablename1.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);/*assigns the filter of only directories
+				variablename1.setAcceptAllFileFilterUsed(false);/* not will accept other filters
