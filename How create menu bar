@@ -1,0 +1,28 @@
+/*WARNING: parentheses are only comments, in place his, use variable, no parentheses.
+
+/*first, instance the MenuBar
+JMenuBar (variable) = new JMenuBar();
+
+/*Now, create how many menu you want.
+JMenu (variable1) = new JMenu ("name visible to the user");
+JMenu (variable2) = new JMenu ("name visible to the user");
+JMenu (variable3) = new JMenu ("name visible to the user");
+JMenu (variable4) = new JMenu ("name visible to the user");
+
+/*assign JMenu to JMenuBar
+(JMenuBar variable).add(JMenu variable1);
+(JMenuBar variable).add(JMenu variable2);
+(JMenuBar variable).add(JMenu variable3);
+(JMenuBar variable).add(JMenu variable4);
+
+/*Create submenu
+JMenuItem (variable5) = new JMenuItem("name visible to the user");
+JMenuItem (variable6) = new JMenuItem("name visible to the user");
+JMenuItem (variable7) = new JMenuItem("name visible to the user");
+JMenuItem (variable8) = new JMenuItem("name visible to the user");
+
+/*assign JMenuItem to JMenu
+(variable1).add(variable5) /*here you are assigning the JMenuItem "variable5" to JMenu "variable1"*/;
+(variable2).add(variable6) /*here you are assigning the JMenuItem "variable6" to JMenu "variable2"*/;
+(variable3).add(variable7) /*here you are assigning the JMenuItem "variable7" to JMenu "variable3"*/;
+(variable4).add(variable8) /*here you are assigning the JMenuItem "variable8" to JMenu "variable4"*/;
